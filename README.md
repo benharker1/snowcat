@@ -8,14 +8,14 @@ Serf allows you to send 'events' and receive 'queries' from members of your clus
 
 Though Snowcat is primarily geared towards my specific use-case - running admin for ~200 macintosh workstations and ~20 linux servers, it can likely be adapted to suit your needs too.
 
-# features
+## You can...
 
-- send a command from your terminal to a specific machine or group of machines; ie: 
+**send a command from your machine's terminal to a specific machine or group of machines; ie: **
 
--   serf event im975 'puppet agent -t'
--   serf event r72 'managedsoftwareupdate --installonly'
--   serf event webserver1.tehbenneh.com 'apt-get update && apt-get upgrade -y'
+- serf event im975 'puppet agent -t'
+- serf event r72 'managedsoftwareupdate --installonly'
+- serf event webserver1.tehbenneh.com 'apt-get update && apt-get upgrade -y'
    
-# features - planned
+## features - planned
 
 - docker-based web front end
