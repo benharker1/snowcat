@@ -9,7 +9,7 @@ Serf allows you to send 'events' and receive results to 'queries' from members o
 
 Though Snowcat is primarily geared towards my specific use-case - running admin for ~200 macintosh workstations and ~20 linux servers, it can likely be adapted to suit your needs too. 
 
-My aim with Snowcat is to put together a toolset that allows me to reboot _iMac735_ or update _linuxserver32_ without needing to fireup an ssh session, or open up Apple Remote Desktop.
+My aim with Snowcat is to put together a toolset that allows me to reboot _iMac735_ or update _linuxserver32_ without needing to fireup an ssh session, or open up Apple Remote Desktop. Because, you know, that's effort.
 
 ## You can...
 
@@ -18,6 +18,8 @@ My aim with Snowcat is to put together a toolset that allows me to reboot _iMac7
 - serf event im975 'puppet agent -t'
 - serf event r72 'managedsoftwareupdate --installonly'
 - serf event webserver1.tehbenneh.com 'apt-get update && apt-get upgrade -y'
+
+...all you need are the hostname, or the workgroup that you want to affect, and the command you want to run.
 
 **- get feedback on current state of machines**
 
