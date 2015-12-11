@@ -17,6 +17,7 @@ Though Snowcat is primarily geared towards my specific use-case - running admin 
 - serf event webserver1.tehbenneh.com 'apt-get update && apt-get upgrade -y'
 
 **- get feedback on current state of machines**
+
 **- view event success or failure in /var/log/snowcat.log**
    
 ## features - planned
