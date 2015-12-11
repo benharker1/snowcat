@@ -10,11 +10,14 @@ Though Snowcat is primarily geared towards my specific use-case - running admin 
 
 ## You can...
 
-**send a command from your machine's terminal to a specific machine or group of machines; ie: **
+**send a command from your machine's terminal to a specific machine or group of machines; ie:**
 
 - serf event im975 'puppet agent -t'
 - serf event r72 'managedsoftwareupdate --installonly'
 - serf event webserver1.tehbenneh.com 'apt-get update && apt-get upgrade -y'
+- 
+**get feedback on current state of machines**
+**view event success or failure in /var/log/snowcat.log**
    
 ## features - planned
 
